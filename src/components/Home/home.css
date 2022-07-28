@@ -9,12 +9,14 @@
 .main {
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
-    min-height: 100vh;
     margin-top: 30px;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     /* background-color: aqua; */
+}
+.center{
+    display: flex;
+    align-items: center;
 }
 
 .filter-div {
@@ -66,9 +68,11 @@ button:hover {
 
 .items-div {
     display: flex;
-    flex-direction: column;
-    min-width: 80vw;
-    min-height: 10vh;
+    flex-direction: row;
+    margin-left: 10%;
+    width: 30;
+    height: 45;
+    flex-wrap: wrap;
     /* margin-top: 30px; */
     /* justify-content: center; */
     /* align-items: center; */

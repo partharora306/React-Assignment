@@ -2,6 +2,7 @@
 .card {
     margin: 10px 20px;
     padding: 10px 20px;
+    text-align: center;
     border: 1px solid #63636394;
     border-radius: 5px;
     display: flex;
@@ -55,5 +56,10 @@
 .vertical-split {
     margin: 0 10px;
 }
-
-
+.button{
+    margin-top: 10px;
+}
+.product-img{
+    width: 22rem;
+    height: 11rem;
+}
